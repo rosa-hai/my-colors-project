@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import React, { useState } from "react";
+import Content from "./components/Content";
+import { SApp } from "./styles/styles";
+import Loader from "./components/Loader";
 
 function App() {
+  const [image, setImage] = useState("");
+  const [load, setLoad] = useState(true);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <SApp>
+      <Content
+        image={image}
+        setImage={setImage}
+        load={load}
+        setLoad={setLoad}
+      />
+      <div className="image">
+        {load ? <Loader /> : <img src={image && image} alt="random" />}
+      </div>
+    </SApp>
   );
 }
 
