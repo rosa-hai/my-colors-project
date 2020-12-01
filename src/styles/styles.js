@@ -31,15 +31,21 @@ export const GlobalStyle = createGlobalStyle`
 
 export const SApp = styled.div`
   display: flex;
-  height: 100vh;
+  min-height: 100vh;
   justify-content: space-between;
-  overflow: hidden;
+  //overflow: hidden;
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 
   .image {
     display: flex;
     align-items: center;
     width: 45%;
     height: 100%;
+    @media (max-width: 768px) {
+      width: 100%;
+    }
     img {
       object-fit: cover;
       width: 100%;
@@ -51,7 +57,9 @@ export const SApp = styled.div`
     margin-top: 10px;
     padding: 10px;
     height: 100px;
-
+    @media (max-width: 768px) {
+      height: unset;
+    }
     ul {
       display: flex;
     }
@@ -82,10 +90,17 @@ export const SContent = styled.div`
   //background-position-x: center;
   .text {
     padding: 20px 150px;
+
+    @media (max-width: 768px) {
+      padding: 20px 50px;
+    }
   }
   h1 {
     font-size: 5rem;
     letter-spacing: 25px;
+    @media (max-width: 768px) {
+      font-size: 3rem;
+    }
     .title {
       color: ${(props) => props.darkMutedColor || "#000"};
     }
@@ -99,6 +114,9 @@ export const SContent = styled.div`
     margin-top: 50px;
     color: ${(props) => props.darkVibrantColor || "#000"};
     font-size: 0.8rem;
+    @media (max-width: 768px) {
+      margin-top: 10px;
+    }
   }
 
   .background {
