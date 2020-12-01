@@ -100,6 +100,7 @@ export const SContent = styled.div`
     letter-spacing: 25px;
     @media (max-width: 768px) {
       font-size: 2.5rem;
+      letter-spacing: 17px;
     }
     .title {
       color: ${(props) => props.darkMutedColor || "#000"};
