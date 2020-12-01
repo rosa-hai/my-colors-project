@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/my-colors-project/static/css/main.afd7172b.chunk.css",
+    "main.js": "/my-colors-project/static/js/main.5bd9f820.chunk.js",
+    "main.js.map": "/my-colors-project/static/js/main.5bd9f820.chunk.js.map",
+    "runtime-main.js": "/my-colors-project/static/js/runtime-main.c22ce680.js",
+    "runtime-main.js.map": "/my-colors-project/static/js/runtime-main.c22ce680.js.map",
+    "static/js/2.66d7acc2.chunk.js": "/my-colors-project/static/js/2.66d7acc2.chunk.js",
+    "static/js/2.66d7acc2.chunk.js.map": "/my-colors-project/static/js/2.66d7acc2.chunk.js.map",
+    "static/js/3.838da884.chunk.js": "/my-colors-project/static/js/3.838da884.chunk.js",
+    "static/js/3.838da884.chunk.js.map": "/my-colors-project/static/js/3.838da884.chunk.js.map",
+    "index.html": "/my-colors-project/index.html",
+    "static/css/main.afd7172b.chunk.css.map": "/my-colors-project/static/css/main.afd7172b.chunk.css.map",
+    "static/js/2.66d7acc2.chunk.js.LICENSE.txt": "/my-colors-project/static/js/2.66d7acc2.chunk.js.LICENSE.txt",
+    "static/media/plant-1.98d8e669.svg": "/my-colors-project/static/media/plant-1.98d8e669.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c22ce680.js",
+    "static/js/2.66d7acc2.chunk.js",
+    "static/css/main.afd7172b.chunk.css",
+    "static/js/main.5bd9f820.chunk.js"
+  ]
+}
